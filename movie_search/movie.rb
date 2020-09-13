@@ -6,7 +6,7 @@ require 'net/http'
 
 def movie
 
-  api_key = ENV['OMDBAPI_API_KEY'] || 'fbca6ced'
+  api_key = ENV['OMDBAPI_API_KEY'] || 'x'
   movie_name = ARGV
 
   if movie_name == 'q' || movie_name == nil
